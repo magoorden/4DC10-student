@@ -5,7 +5,7 @@ PyCh is a Python package based on SimPy for discrete-event simulation.
 It is a tool developed for the course "Analysis of production systems" (4DC10).
 PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
 
-# Contents
+## Contents
 - Tutotials chapter 1 - 10 contain the tutorial on how to use PyCh
 - Assignment.ipynb contains the jupyter notebook for the course assignment.
 - LectureNotesExamples.ipynb - contains the jupyter notebook of all models used in the lecture notes
