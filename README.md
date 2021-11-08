@@ -7,6 +7,7 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
 
 ## Contents
 - Tutorials chapter 1 - 10 contain the tutorial on how to use PyCh
+- Offline_PyCh_tutorial contains the tutorial in PDF format (for reference)
 - Assignment.ipynb contains the jupyter notebook for the course assignment.
 - LectureNotesExamples.ipynb - contains the jupyter notebook of all models used in the lecture notes
 - LectureSlidesExamples.ipynb - contains the jupyter notebook of all models used in the lecture slides
