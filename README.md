@@ -15,7 +15,7 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
 ## How to install
 1.	Download and install the latest version of anaconda
     -	https://www.anaconda.com/products/individual 
-2.	Open an anaconda prompt (found in windows menu), and enter the following commands:
+2.	Open an `Anaconda prompt (Anaconda3)` (you can type it in the windows bar below), and enter the following commands:
     - `conda create --name pychEnv`
         - Enter `y` (for yes)
     -	`conda activate pychEnv`
