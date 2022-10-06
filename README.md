@@ -42,3 +42,7 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
 3. You can now use this notebook!
     -   You can now click run to execute the cells of the notebook one-by-one (jupyter notebooks work top-down)
     -   [Click this link for information on how jupyter notebook works](https://realpython.com/jupyter-notebook-introduction/)
+
+## Troubleshooting
+- Make sure you open ``Anaconda Prompt (Anaconda3)`` and not another version (such as `Anaconda Prompt` without Anaconda3)! If you had a previous installation of Anaconda, this could also cause issues.
+- If you get a `Numpy importerror`, this means you likely did not follow the *How to use* instruction carefully enough.
