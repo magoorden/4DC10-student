@@ -44,5 +44,6 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
     -   [Click this link for information on how jupyter notebook works](https://realpython.com/jupyter-notebook-introduction/)
 
 ## Troubleshooting
-- Make sure you open ``Anaconda Prompt (Anaconda3)`` and not another version (such as `Anaconda Prompt` without Anaconda3)! If you had a previous installation of Anaconda, this could also cause issues.
+- Make sure you open ``Anaconda Prompt (Anaconda3)`` and not another version (such as `Anaconda Prompt` without Anaconda3)!
 - If you get a `Numpy importerror`, this means you likely did not follow the *How to use* instruction carefully enough.
+- If you had a previous installation of Anaconda, this could cause issues. If so, contact a TA for help.
