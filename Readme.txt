@@ -44,6 +44,14 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
     -   [Click this link for information on how jupyter notebook works](https://realpython.com/jupyter-notebook-introduction/)
 
 ## Troubleshooting
-- Make sure you open ``Anaconda Prompt (Anaconda3)`` and not another version (such as `Anaconda Prompt` without Anaconda3)!
-- If you get a `Numpy importerror`, this means you likely did not follow the *How to use* instruction carefully enough.
-- If you had a previous installation of Anaconda, this could cause issues. If so, contact a TA for help.
+- Most errors are caused by not following the *How to install* instruction carefully enough.
+- If you get the error `No module named 'PyCh'` when you try to run the command `from PyCh import *`, then PyCh has likely not been installed correctly.
+- The same goes if you get a `Numpy importerror`.
+- Make sure you open ``Anaconda Prompt (Anaconda3)`` and not another version (such as `Anaconda Prompt` **without Anaconda3**)!
+- If you get a `EnvironmentNotWritableError` or `Error [WinError 2]` during installation, try running the anaconda prompt as administrator, and then try installing again.
+- If you get a `CondaSSLError`, the solution is as follows:
+    1. Find your anaconda installation directory (e.g. `C:\ProgramData\Anaconda3` or `C:\Users\<username>\Anaconda3`)
+    2.  Go to the subdirectory`\Anaconda3\Library\bin\` and copy the files `libcrypto-1_1-x64.dll` and `libssl-1_1-x64.dll`.
+    3. Paste these files in the following subdirectory: `\Anaconda3\DLLs\`.
+- If you get an error code 128 while executing `pip install git+https://github.com/Nickp1993/Pych/`, you can instead try the following command: `pip install https://github.com/Nickp1993/PyCh/archive/master.tar.gz`.
+- If you had a previous installation of Anaconda, this could cause issues. If so, contact a TA for help. The easiest solution generally is a clean install of Anaconda.
