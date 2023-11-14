@@ -49,7 +49,7 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
 - The same goes if you get a `Numpy importerror`.
 - Make sure you open ``Anaconda Prompt (Anaconda3)`` and not another version (such as `Anaconda Prompt` **without Anaconda3**)!
 - If you get a `EnvironmentNotWritableError` or `Error [WinError 2]` during installation, try running the anaconda prompt as administrator, and then try installing again.
-- If you get a `CondaSSLError`, the solution is as follows:
+- If you get a ÒpenSSL` or `CondaSSLError`, the solution is as follows:
     1. Find your anaconda installation directory (e.g. `C:\ProgramData\Anaconda3` or `C:\Users\<username>\Anaconda3`)
     2.  Go to the subdirectory`\Anaconda3\Library\bin\` and copy the files `libcrypto-1_1-x64.dll` and `libssl-1_1-x64.dll`.
     3. Paste these files in the following subdirectory: `\Anaconda3\DLLs\`.
