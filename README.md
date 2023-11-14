@@ -55,3 +55,4 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
     3. Paste these files in the following subdirectory: `\Anaconda3\DLLs\`.
 - If you get an error code 128 while executing `pip install git+https://github.com/Nickp1993/Pych/`, you can instead try the following command: `pip install https://github.com/Nickp1993/PyCh/archive/master.tar.gz`.
 - If you had a previous installation of Anaconda, this could cause issues. If so, contact a TA for help. The easiest solution generally is a clean install of Anaconda.
+- WINError 225: Temporarily disable your antivirus while performing the installation.
