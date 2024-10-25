@@ -16,6 +16,8 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
 1.	Download and install the latest version of anaconda
     -	https://www.anaconda.com/products/individual 
     -	Note that you can `Skip registration` if you don't want to provide your email address.
+
+For Windows
 2.	Open an `Anaconda prompt (Anaconda3)` (you can type it in the windows bar below), and enter the following commands:
     - `conda create --name pychEnv`
         - Enter `y` (for yes)
@@ -25,6 +27,18 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
     -	`python -m ipykernel install --user --name pychEnv --display-name "Python (pychEnv)"`
     -	`pip install git+https://github.com/Nickp1993/Pych/`
     -	Close this window (do not continue with the "how to use" without closing!)
+
+For macOS
+2.	Open a terminal and enter the following commands:
+    - `conda create --name pychEnv`
+        - Enter `y` (for yes)
+    -	`conda activate pychEnv`
+    -	`conda install git pip ipykernel notebook`
+        - Enter `y` (for yes)
+    -	`python3 -m ipykernel install --user --name pychEnv --display-name "Python (pychEnv)"`
+    -	`pip install git+https://github.com/Nickp1993/Pych/`
+    -	Close this terminal
+
 3.	You have finished installation, continue with the "How to use" below to start a notebook
 
 ## How to use
