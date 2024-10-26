@@ -15,6 +15,9 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
 ## How to install
 1.	Download and install the latest version of anaconda
     -	https://www.anaconda.com/products/individual 
+    -	Note that you can `Skip registration` if you don't want to provide your email address.
+
+For Windows
 2.	Open an `Anaconda prompt (Anaconda3)` (you can type it in the windows bar below), and enter the following commands:
     - `conda create --name pychEnv`
         - Enter `y` (for yes)
@@ -24,6 +27,18 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
     -	`python -m ipykernel install --user --name pychEnv --display-name "Python (pychEnv)"`
     -	`pip install git+https://github.com/Nickp1993/Pych/`
     -	Close this window (do not continue with the "how to use" without closing!)
+
+For macOS
+2.	Open a terminal and enter the following commands:
+    - `conda create --name pychEnv`
+        - Enter `y` (for yes)
+    -	`conda activate pychEnv`
+    -	`conda install git pip ipykernel notebook`
+        - Enter `y` (for yes)
+    -	`python3 -m ipykernel install --user --name pychEnv --display-name "Python (pychEnv)"`
+    -	`pip install git+https://github.com/Nickp1993/Pych/`
+    -	Close this terminal
+
 3.	You have finished installation, continue with the "How to use" below to start a notebook
 
 ## How to use
@@ -32,8 +47,9 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
     -   Extract the ZIP-file.
         - E.g. to `C:\4DC10\notebooks`
 2. Every time you want to start jupyter notebook: 
-    -   Open the anaconda prompt (found in windows menu)
-    -   In anaconda, set the path to that of your notebooks folder by entering `cd <path>` with `<path>` the path of your notebooks folder. If you are not using your default drive (`C:\`), use `cd /D <path>`.
+    -   (Windows) Open the anaconda prompt (found in windows menu)
+    -	(macOS) Open a terminal and enter `conda activate pychEnv`
+    -   In anaconda/terminal, set the path to that of your notebooks folder by entering `cd <path>` with `<path>` the path of your notebooks folder. If you are not using your default drive (`C:\`), use `cd /D <path>`.
         - E.g. `cd C:\4DC10\notebooks`, or `cd /D F:\4DC10\notebooks`
     -   Enter `jupyter notebook`
     -	Wait till a local server has started, your browser should open it automatically, if not, [try clicking this links](http://127.0.0.1:8888/)
