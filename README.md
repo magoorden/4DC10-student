@@ -18,6 +18,7 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
     -	Note that you can `Skip registration` if you don't want to provide your email address.
 
 For Windows
+
 2.	Open an `Anaconda prompt (Anaconda3)` (you can type it in the windows bar below), and enter the following commands:
     - `conda create --name pychEnv`
         - Enter `y` (for yes)
@@ -29,6 +30,7 @@ For Windows
     -	Close this window (do not continue with the "how to use" without closing!)
 
 For macOS
+
 2.	Open a terminal and enter the following commands:
     - `conda create --name pychEnv`
         - Enter `y` (for yes)
