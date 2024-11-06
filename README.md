@@ -14,7 +14,7 @@ PyCh is a port of [Chi3](https://cstweb.wtb.tue.nl/chi/trunk-r9682/).
 
 ## How to install
 1.	Download and install the latest version of anaconda
-    -	https://www.anaconda.com/products/individual 
+    -	https://www.anaconda.com/products/individual
     -	Note that you can `Skip registration` if you don't want to provide your email address.
 
 For Windows
@@ -48,7 +48,7 @@ For macOS
     -   Click the green button above, and click download ZIP (or [click here](https://github.com/Nickp1993/4DC10-student/archive/refs/heads/main.zip))
     -   Extract the ZIP-file.
         - E.g. to `C:\4DC10\notebooks`
-2. Every time you want to start jupyter notebook: 
+2. Every time you want to start jupyter notebook:
     -   (Windows) Open the anaconda prompt (found in windows menu)
     -	(macOS) Open a terminal and enter `conda activate pychEnv`
     -   In anaconda/terminal, set the path to that of your notebooks folder by entering `cd <path>` with `<path>` the path of your notebooks folder. If you are not using your default drive (`C:\`), use `cd /D <path>`.
@@ -67,9 +67,9 @@ For macOS
 - The same goes if you get a `Numpy importerror`.
 - Make sure you open ``Anaconda Prompt (Anaconda3)`` and not another version (such as `Anaconda Prompt` **without Anaconda3**)!
 - If you get a `EnvironmentNotWritableError` or `Error [WinError 2]` during installation, try running the anaconda prompt as administrator, and then try installing again.
-- If you get a ÒpenSSL` or `CondaSSLError`, the solution is as follows:
+- If you get a `OpenSSL` or `CondaSSLError`, the solution is as follows:
     1. Find your anaconda installation directory (e.g. `C:\ProgramData\Anaconda3` or `C:\Users\<username>\Anaconda3`)
-    2.  Go to the subdirectory`\Anaconda3\Library\bin\` and copy the files `libcrypto-1_1-x64.dll` and `libssl-1_1-x64.dll`.
+    2. Go to the subdirectory`\Anaconda3\Library\bin\` and copy the files `libcrypto-1_1-x64.dll` and `libssl-1_1-x64.dll`.
     3. Paste these files in the following subdirectory: `\Anaconda3\DLLs\`.
 - If you get an error code 128 while executing `pip install git+https://github.com/Nickp1993/Pych/`, you can instead try the following command: `pip install https://github.com/Nickp1993/PyCh/archive/master.tar.gz`.
 - If you had a previous installation of Anaconda, this could cause issues. If so, contact a TA for help. The easiest solution generally is a clean install of Anaconda.
