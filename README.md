@@ -59,7 +59,7 @@ For all OS
     -   (Windows) Open the anaconda prompt (found in windows menu)
     -	(macOS) Open a terminal and enter `conda activate pychEnv`
     -   In anaconda/terminal, set the path to that of your notebooks folder by entering `cd <path>` with `<path>` the path of your notebooks folder. If you are not using your default drive (`C:\`), use `cd /D <path>`.
-        - E.g. `cd C:\4DC10\notebooks`, or `cd /D F:\4DC10\notebooks`
+        - E.g. `cd C:\4DC10\notebooks`, or `cd /D F:\4DC10\notebooks`, or `cd Users/goorden/courses/4dc10/notebooks`
     -   Enter `jupyter notebook`
     -	Wait till a local server has started, your browser should open it automatically, if not, [try clicking this links](http://127.0.0.1:8888/)
     -   Open one of the notebooks (files with an `.ipynb` extension). Note that you can open multiple notebooks from this overview
