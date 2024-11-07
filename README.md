@@ -71,6 +71,7 @@ For all OS
     -   Jupyter notebooks should be saved automatically, but you can always save them manuall (just to be sure)
     -   Make a `commit` of your changes using GitKraken (See [here](https://learn.gitkraken.com/courses/git-foundations) if you need a reminder on how to do this)
     -   `Push` the commit to the TU/e GitLab server so your contributions become available to your teammates
+5. When done, you can close the jupyter notebook server in the terminal by pressing `ctrl+c` (the nice way) or simply closing the terminal/anaconda window (the easy way).
 
 
 ## GitKraken
