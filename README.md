@@ -79,6 +79,7 @@ Proper version control is important when collaborating on files. Nowadays, cloud
 1. Please familiarize yourself with the basics of Git using [these instructions](https://cstweb.wtb.tue.nl/4tc00/tooling/git/index-intro.html) or this 4-min [YouTube video](https://youtu.be/e9lnsKot_SQ?si=ReV_tLW6T7e1r5PB).
 
 Git can be used through a command line, but there exists numerous graphical user interfaces to use Git. A very intuitive and easy-to-use GUI is GitKraken. This is a paid tool, but free for students with a GitHub Student Developer Pack. 
+
 2. If you haven't used GitKrake before, follow [these instructions](https://cstweb.wtb.tue.nl/4tc00/tooling/git/index-use.html) to setup GitKraken.
 
 3. The course specific workflows in GitKraken from [here](https://cstweb.wtb.tue.nl/4tc00/tooling/git/index-use.html#course-specific-workflows-in-gitkraken) also apply in this course. 
