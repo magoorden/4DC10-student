@@ -56,7 +56,7 @@ For all OS
 ## How to use
 1. Get work from your teammates on your local system using Git `pull`.
 2. Every time you want to start jupyter notebook:
-    -   (Windows) Open the anaconda prompt (found in windows menu)
+    -   (Windows) Open the anaconda prompt (found in windows menu) and enter `conda activate pychEnv`
     -	(macOS) Open a terminal and enter `conda activate pychEnv`
     -   In anaconda/terminal, set the path to that of your notebooks folder by entering `cd <path>` with `<path>` the path of your notebooks folder. If you are not using your default drive (`C:\`), use `cd /D <path>`.
         - E.g. `cd C:\4DC10\notebooks`, or `cd /D F:\4DC10\notebooks`, or `cd Users/goorden/courses/4dc10/notebooks`
