@@ -25,7 +25,7 @@ For Windows
     - `conda create --name pychEnv`
         - Enter `y` (for yes)
     -	`conda activate pychEnv`
-    -	`conda install git pip ipykernel`
+    -	`conda install git pip ipykernel notebook`
         - Enter `y` (for yes)
     -	`python -m ipykernel install --user --name pychEnv --display-name "Python (pychEnv)"`
     -	`pip install git+https://github.com/Nickp1993/Pych/`
@@ -58,6 +58,7 @@ For all OS
 2. Every time you want to start jupyter notebook:
     -   (Windows) Open the anaconda prompt (found in windows menu) and enter `conda activate pychEnv`
     -	(macOS) Open a terminal and enter `conda activate pychEnv`
+    -   Check that the bottom line starts with `(pychEnv)` 
     -   In anaconda/terminal, set the path to that of your notebooks folder by entering `cd <path>` with `<path>` the path of your notebooks folder. If you are not using your default drive (`C:\`), use `cd /D <path>`.
         - E.g. `cd C:\4DC10\notebooks`, or `cd /D F:\4DC10\notebooks`, or `cd Users/goorden/courses/4dc10/notebooks`
     -   Enter `jupyter notebook`
@@ -90,7 +91,7 @@ Git can be used through a command line, but there exists numerous graphical user
 
 ## Troubleshooting
 - Most errors are caused by not following the *How to install* instruction carefully enough.
-- If you get the error `No module named 'PyCh'` when you try to run the command `from PyCh import *`, then PyCh has likely not been installed correctly.
+- If you get the error `No module named 'PyCh'` when you try to run the command `from PyCh import *`, then PyCh has likely not been installed correctly (try installing again) *or* you are not running the jupyter notebook from the `pychEnv` virtual environment (use `conda activate pychEnv` before starting jupyter).
 - The same goes if you get a `Numpy importerror`.
 - Make sure you open ``Anaconda Prompt (Anaconda3)`` and not another version (such as `Anaconda Prompt` **without Anaconda3**)!
 - If you get a `EnvironmentNotWritableError` or `Error [WinError 2]` during installation, try running the anaconda prompt as administrator, and then try installing again.
